@@ -5,7 +5,7 @@ metadata:
   name: hello
   namespace: lasample
   labels:
-    app: hello2
+    app: hello
   annotations:
     fluxcd.io/automated: 'true'
 spec:
@@ -18,5 +18,5 @@ spec:
         app: hello
     spec:
       containers:
-      - name: hello
+      - name: hello2
         image: nginx:1-alpine-perl
