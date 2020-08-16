@@ -19,4 +19,4 @@ spec:
     spec:
       containers:
       - name: hello
-        image: nginx:1-alpine-perl
+        image: linuxacademycontent/gitops:hellov1.0
