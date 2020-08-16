@@ -5,7 +5,7 @@ metadata:
   name: hello
   namespace: lasample
   labels:
-    app: hello
+    app: hello2
   annotations:
     fluxcd.io/automated: 'true'
 spec:
